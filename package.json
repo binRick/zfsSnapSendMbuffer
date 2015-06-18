@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/binRick/zfsSnapSendMbuffer/issues"
   },
-  "homepage": "https://github.com/binRick/zfsSnapSendMbuffer"
+  "homepage": "https://github.com/binRick/zfsSnapSendMbuffer",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "commander": "^2.8.1",
+    "fs": "0.0.2",
+    "multiview": "^2.1.1",
+    "prettyjson": "^1.1.2",
+    "ssh2": "^0.4.8",
+    "trim": "0.0.1",
+    "underscore": "^1.8.3"
+  }
 }
