@@ -60,7 +60,7 @@ socket.on('connect', function() {
 });
 socket.on('update', function(data) {
     C(c.yellow.bgWhite('Update'));
-    C(data);
+    C(pj.render(data));
     if (data.zfsRecv.exitCode != null && data.mbufferRecv.exitCode != null) {
         C(c.red.bgBlack('process complete!'));
         process.exit();
