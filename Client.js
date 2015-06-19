@@ -6,8 +6,8 @@ var trim = require('trim'),
     c = require('chalk'),
     C = console.log;
 
-var server = 'intrepid';
-var RemotePort = '9092';
+var server = 'localhost';
+var RemotePort = '9095';
 var zfsFSSnap = 'tank/Rick@123123';
 
 
